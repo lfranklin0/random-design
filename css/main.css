@@ -95,13 +95,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  font-family: Verdana, sans-serif;
+  line-height: 1.4em;
+  position: relative;
+}
 
+nav {
+  padding: .8em;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 10%;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 
+nav i {
+  position: absolute;
+  right: 8%;
+  top: 40%;
+}
 
+header {
+  width: 100%;
+  height: 30em;
+  background-image: url("../img/purple-bg.jpeg");
+  color: #fff;
+  text-align: center;
+}
 
+header h1 {
+  padding-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.5rem;
+  line-height: 4.4rem;
+  text-transform: uppercase;
+}
 
+.button {
+  padding-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
 
-
+}
 
 
 
