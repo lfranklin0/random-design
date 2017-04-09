@@ -95,8 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
 html {
-  font-family: Verdana, sans-serif;
+  font-family: "Open Sans", Verdana, sans-serif;
   line-height: 1.8em;
   position: relative;
   box-sizing: border-box;
@@ -111,12 +113,12 @@ h2 {
 }
 
 nav {
-  padding: .6em;
+  padding: .5em 0 .5em 1em;
   margin: 0;
   font-size: 1.2em;
   font-weight: bold;
   text-transform: uppercase;
-  height: 10%;
+  height: 4em;
   background-color: #000;
   color: #fff;
   position: fixed;
@@ -165,48 +167,77 @@ header h1 {
 
 .about {
   margin: 4em 3em 1em 1em;
-  padding-bottom: 3em;
-  border-bottom: #ededed 1px solid;
+  padding-bottom: 2em;
 }
 
 
 .latest-work {
-  margin: 4em 1em 1em 1em;
+  margin: 4em 1em 10em 1em;
+  padding-bottom: 10em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 .gallery:nth-of-type(odd) {
   float: left;
   width: 50%;
+  height: 100%;
   position: relative;
 }
 
 .gallery:nth-of-type(even) {
   float: right;
   width: 50%;
+  height: 100%;
   position: relative;
 }
 
-.gallery:hover {
-  color: #fff;
+.gallery {
+  background: rgba(255, 255, 255, 0.7);
 }
 
-h3 {
+.gallery_img {
+  display: block;
+  position: relative;
+  z-index: -10;
+}
+
+.gallery_float {
+  padding-bottom: 5em;
+}
+
+.gallery h3 {
   position: absolute;
+  margin: 0;
   text-transform: uppercase;
   font-size: 130%;
-  top: 30%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #000;
+}
+
+.gallery:hover {
+  background: rgba(255, 255, 255, 0.0);
+}
+
+.gallery h3:hover {
+  color: #fff;
 }
 
 img {
   width: 100%;
   padding: .1em;
-  opacity: 0.4;
 }
 
 footer {
   clear: both;
+  text-align: center;
+  margin: 0em 1em 0em 1em;
+  padding: 3em 0 0 0;
 }
 
 
