@@ -165,13 +165,12 @@ header h1 {
 
 .about {
   margin: 4em 3em 1em 1em;
-  padding-bottom: 3em;
-  border-bottom: #ededed 1px solid;
+  padding-bottom: 2em;
 }
 
 
 .latest-work {
-  margin: 4em 1em 1em 1em;
+  margin: 4em 1em 10em 1em;
 }
 
 .gallery:nth-of-type(odd) {
@@ -224,6 +223,7 @@ img {
 
 footer {
   clear: both;
+  margin: 4em 1em 0em 1em;
 }
 
 
