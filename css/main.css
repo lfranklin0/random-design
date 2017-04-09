@@ -97,12 +97,21 @@ textarea {
 
 html {
   font-family: Verdana, sans-serif;
-  line-height: 1.4em;
+  line-height: 1.8em;
   position: relative;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h2 {
+  text-transform: uppercase;
 }
 
 nav {
-  padding: .8em;
+  padding: .6em;
   margin: 0;
   font-size: 1.2em;
   font-weight: bold;
@@ -132,6 +141,8 @@ header {
 
 header h1 {
   padding-top: 3em;
+  padding-left: 20%;
+  padding-right: 20%;
   margin-left: auto;
   margin-right: auto;
   font-size: 3.5rem;
@@ -140,15 +151,59 @@ header h1 {
 }
 
 .button {
-  padding-top: 2em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 1em;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgba(255, 255, 255, 0);
+  display: inline-block;
+  cursor: pointer;
+  border: #fff 2px solid;
 
+}
+
+.about {
+  margin: 4em 3em 1em 1em;
+  padding-bottom: 3em;
+  border-bottom: #ededed 1px solid;
+}
+
+
+.latest-work {
+  margin: 4em 1em 1em 1em;
+}
+
+.gallery:nth-of-type(odd) {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+
+.gallery:nth-of-type(even) {
+  float: right;
+  width: 50%;
+  position: relative;
+}
+
+h3 {
+  position: absolute;
+  text-transform: uppercase;
+  top: 35%;
+  left: 35%;
+  color: #fff;
 }
 
 
 
+img {
+  width: 100%;
+  padding: .1em;
+}
 
+footer {
+  clear: both;
+}
 
 
 
