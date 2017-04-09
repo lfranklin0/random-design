@@ -111,12 +111,12 @@ h2 {
 }
 
 nav {
-  padding: .6em;
+  padding: .5em;
   margin: 0;
   font-size: 1.2em;
   font-weight: bold;
   text-transform: uppercase;
-  height: 10%;
+  height: 4em;
   background-color: #000;
   color: #fff;
   position: fixed;
@@ -189,7 +189,7 @@ header h1 {
 }
 
 .gallery {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .gallery_img {
@@ -209,6 +209,13 @@ header h1 {
   color: #000;
 }
 
+.gallery:hover {
+  background: rgba(255, 255, 255, 0.0);
+}
+
+.gallery h3:hover {
+  color: #fff;
+}
 
 img {
   width: 100%;
