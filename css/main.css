@@ -142,14 +142,25 @@ nav i {
   position: relative;
 }
 
+.callout_content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+}
+
 .callout h1 {
-  padding-top: 2.5em;
+  /*padding-top: 2.5em;
   padding-left: 20%;
   padding-right: 20%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 3.5rem;
-  line-height: 4.4rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;*/
+  font-size: 50px;
+  line-height: 4rem;
   text-transform: uppercase;
 }
 
@@ -157,10 +168,10 @@ nav i {
 .button {
   font-size: 1.5em;
   text-transform: uppercase;
-  padding: 1em;
+  /*
   margin-left: auto;
-  margin-right: auto;
-  background-color: rgba(255, 255, 255, 0);
+  margin-right: auto; */
+  padding: 1em;
   display: inline-block;
   cursor: pointer;
   border: #fff 2px solid;
